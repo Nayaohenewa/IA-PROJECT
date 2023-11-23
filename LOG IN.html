@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #login-container {
+            background-color: rgb(52, 66, 95);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: gold;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: goldenrod;
+        }
+</style>
+</head>
+    <body style="background-color: rgb(61, 83, 180); color: #f4f4f4;"></body>
+        <div id="login-container">
+            <h2>Email Login</h2>
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </div>
+    
+        <script>
+            function login() {
+                // You can add your login logic here using JavaScript
+                // For simplicity, let's just show an alert for now
+                alert('login to this page?');
+            }
+        </script>
+    </body>
+</HTML>

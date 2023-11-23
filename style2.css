@@ -1,0 +1,42 @@
+header{
+    color: antiquewhite;
+    background-color:rgb(95, 95, 148);
+}
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(208, 212, 66);
+    border-color: black;
+    padding:1%;
+    margin:px;
+    text-align: right;
+    
+}
+.logo{
+    max-width:20%;
+    height: auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.container {
+    padding: 20px;
+}
+.card {
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px ;
+    transition: 1s;
+    background-color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card:hover {
+    box-shadow:16px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+
+}
